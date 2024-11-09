@@ -12,12 +12,12 @@
         "required": true,
         "default": "Example Dynamic Platform"
       },
-      "url": {
+      "ip": {
         "title": "HyperHDR Server IP",
         "type": "string",
         "format": "string",
         "required": true,
-        "description": "The URL of the HyperHDR server."
+        "description": "The ip of the HyperHDR server."
       },
       "port": {
         "title": "HyperHDR Server Port",
