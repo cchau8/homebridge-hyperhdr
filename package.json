@@ -1,9 +1,8 @@
 {
-  "name": "homebridge-hyperhdr",
+  "name": "homebridge-hyperhdr-plugin",
   "displayName": "hyperhdr-plugin",
   "type": "module",
   "version": "1.0.0",
-  "private": true,
   "description": "HyperHDR plugin for Homebridge",
   "author": "cchau8",
   "license": "Apache-2.0",
