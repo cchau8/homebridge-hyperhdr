@@ -13,16 +13,17 @@
         "default": "Example Dynamic Platform"
       },
       "url": {
-        "title": "HyperHDR Server URL",
+        "title": "HyperHDR Server IP",
         "type": "string",
-        "format": "uri",
+        "format": "string",
         "required": true,
         "description": "The URL of the HyperHDR server."
       },
-      "authToken": {
-        "title": "Authentication Token",
-        "type": "string",
-        "description": "The authentication token for the HyperHDR server."
+      "port": {
+        "title": "HyperHDR Server Port",
+        "type": "number",
+        "required": true,
+        "description": "The port of the HyperHDR server."
       },
       "deviceName": {
         "title": "Device Name",
